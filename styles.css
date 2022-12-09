@@ -1,0 +1,186 @@
+.carousel-item {
+    height: 650px;
+  }
+  
+h1 {text-align: center;}
+
+
+/* Container holding the image and the text */
+.container1 {
+    text-align: center;
+    color: white;
+    height: 650px;
+  }
+  
+  .container2 {
+    text-align: center;
+    color: white;
+    height: 200px;
+  }
+  
+  
+  .container3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 200px;
+  }
+  
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .centered1 {
+    position: absolute;
+    top: 55%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered3 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered4 {
+    position: absolute;
+    top: 65%;
+    left: 17.1%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centeredabout {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+
+  }
+
+  .centeredabout1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+
+  }
+
+  .centeredabout2 {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+
+  }
+
+
+
+#arrow {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+#leftcard{
+    width: 30%;
+}
+
+.content {
+    position: relative;
+  top : 400px;
+    background: white;
+    padding: 50px;
+    border-radius: 3px;
+    bottom:40%
+  }
+
+.image1 {
+    min-height: 100vh;
+    background-image: url(/Users/gracedorantes/final_portfolio/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+  }
+
+
+  .content1 {
+    position: relative;
+  top : 30px;
+    background: grey;
+    padding: 50px;
+    border-radius: 3px;
+    bottom:40%
+  }
+
+  .contentproject {
+    position: relative;
+  top : 50px;
+    background: #ffe6ee;
+    padding: 50px;
+    border-radius: 3px;
+    bottom:40%;
+    
+  }
+
+  .process {
+    position: relative;
+  top : 50px;
+    background: #FFD6AB;
+    padding: 50px;
+    border-radius: 3px;
+    bottom:40%;
+    padding-top:50px;
+  }
+
+  .space{
+    position:relative;
+    height:50px
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+   .conclusionproject {
+    position: relative;
+  top : 50px;
+    background: #FFF0AB;
+    padding: 50px;
+    border-radius: 3px;
+    bottom:40%;
+    
+  }
+
+  ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
